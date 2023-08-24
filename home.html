@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link  href="home.css" rel="stylesheet">
+        <title>home page</title>
+    </head>
+    <body>
+       <div id="main_div">
+        <header>
+            <div>
+                <img src="log.jpg" id="l_one">
+                <div id="name_1">
+                    Jetwing HOTEL
+                </div>
+            </div>
+        </header>
+        <img src="cover.jpg" id="cover_img">
+        <div id="bar">
+            <div class="bar_in"><a href="home.html">HOME</a></div>
+            <div class="bar_in"><a href="Facilities.html">FACILITIES</a></div>
+            <div class="bar_in"><a href="offers.html">OFFERS</a></div>
+            <div class="bar_in"><a href="contactUs.html">CONTACT US</a></div>
+        </div>
+        <div id="description" >
+            <div id="des_1"><h3>HOTELS IN SRLANKA</h3></div>
+           <div id="des_2"><h1>JETWING HOTELS</h1></div>
+            <P id="des_3">
+                Revel in our histories. Chase our mysteries. Discover extraordinary places. Unwind in our spaces. At Jetwing Hotels, we <br>promise you are in good hands. With the largest family of hotels and villas across Sri Lanka, we are delighted to welcome you<br> into our homes found on the mountains to the coastline, and everywhere else in between.<br>
+<span id="dots">....</span><span id="more">
+Our legendary hospitality is one that we are truly proud of, and will forever remain synonymous with our name - wherever you<br> may cross paths with us on your travels far and wide.<br>
+
+Our spaces have also been designed to seamlessly blend the finest of Sri Lankan hospitality with the nature of our<br> surroundings, creating atmospheres of undiscovered luxury that you will find hard to match. With rooms that draw you into a <br>world of their own, and signature dining experiences that transport you to a world beyond, your stay with us is a stay to <br>remember. No matter how long you choose to spend with our family, we will always welcome you with open arms and<br> a tropical embrace to make you feel at home.<br>
+
+As you explore our island, the smiles of our people will accompany you through the many natural spectacles and historical <br>wonders on your journey. And although our home may hold fascinating legacies, it is also an exotic habitat that we carefully<br> preserve for the future. It is one we share not only with the world, but also with each other – and this is what binds us together <br>as a nation of warmth and compassion.<br>
+
+Through uncharted lands or world-famous destinations, our eternal spirit of Sri Lankan hospitality is one that is refreshingly <br>contagious, in the best way possible. For it begins and ends with a simple blessing bestowed upon each and every one of you <br>when you set foot on our land:<br><br>
+
+Ayubowan – may you live long!</span>
+            </P>
+<button onclick="myfun()" id="myBtn">Read More</button>
+        </div>
+        <br>
+
+        <div id="div_pics">
+            <div class="div_pic1">
+                 <img src="in_pic1.jpg" id="inpic1">
+                 <div class="in_divp">
+                        <p class="hotel_text">HOTEL & RESORT</p>
+                        <button class="explore_btn">EXPLORE</button>
+                 </div>
+            </div>
+            <div class="div_pic2" >
+                <img src="in_pic2.jpg" id="inpic2">
+                <div class="in_divp">
+                    <p class="hotel_text">VILLAS</p>
+                    <button class="explore_btn">EXPLORE</button>
+                 </div>
+            </div>
+        </div>
+        <div id="last_text">RESORTS OF<br>UNTOLD BEAUTY AND EXPERIENCES</div>
+       </div>
+        <script>
+        function myfun()
+        {
+          var dots = document.getElementById("dots");
+          var moreText = document.getElementById("more");
+          var btnText = document.getElementById("myBtn");
+          console.log(btnText);
+
+          if (dots.style.display === "none") {
+              dots.style.display = "inline";
+              btnText.value = "Read More"; 
+              btnText.innerHTML = "Read More"; 
+              btnText.innerText = "Read More";
+              moreText.style.display = "none";
+              
+          } else {
+              dots.style.display = "none";
+              btnText.value = "Read Less"; 
+              btnText.innerHTML = "Read Less"; 
+              btnText.innerText = "Read Less";
+              moreText.style.display = "inline";
+          }
+        }
+        </script>
+        
+        <div id="behind_div">
+            <img src="sea.jpg" id="behind">
+        </div>
+        <div id="after_sp">
+            <div id="next"> 
+                <h1 id="gallery_me">MEMORIES WITH US</h1>
+                <div id="inside_pic4">
+                     <img src="memory1.jpg" id="out_1pic">
+                    <img src="memory2.jpg" id="out_2pic">
+                    <img src="memory3.jpg" id="out_3pic">
+                    <img src="memory4.jpg" id="out_4pic">
+                    <img src="memory1.jpg" id="out_5pic">
+                </div>
+            </div>
+            <div id="animation_div">
+                <div id="div11" class="div1234">BOOK YOUR DATE SOON</div>
+                <div id="div22" class="div1234">GET AN UNTOTLED EXPERIENCE</div>
+                <div id="div33" class="div1234">SPEND YOUR WEEKEND RELAX</div>
+                <div id="div44" class="div1234">SPEND VACATION WITH HAPPINESS</div>
+                <div id="div55" class="div1234">LET'S HAVE AN AMAZING EXPERIENCE</div>
+            </div>
+           <footer>
+              <img src="footer2.png" id="footer_photo">
+              <div id="inside_footer">
+                    <h3>JETWING HOTELS LIMITED</h3>
+                    <h4>
+                        JETWING HOUSE II,<br>
+                        46/26, NAVAM MAWATHA,<br>
+                        COLOMBO 02, 00200,<br>
+                        SRI LANKA
+                    </h4>
+                    <h3>
+                        QUICK LINKS
+                    </h3>
+                    <h4>
+                        privacy policy<br>
+                        site map<br>
+                        terms and conditions
+                    </h4>
+              </div>
+              <div id="inside_footer2">       
+                <h4>
+                    OPERATING HOURS<br><br>
+                    MON - SAT - 8AM TO 6PM<br>
+                    SUN - 8AM TO 2PM<br><br>
+                    TELEPHONE : +94 11 234 5700<br>
+                    RESERVATIONS : +94 11 470 9400<br><br>
+                    WHATSAPP  : +94 11 470 9400<br><br>
+                    TELEPHONE (US) : +1-860-316-3828 (FOR US RESIDENTS)<br><br>
+                    EMAIL : RESERVATIONS@JETWINGHOTELS.COM
+                </h4>
+            </div>
+            <img src="r_logo.png" id="inside_footer3"> 
+           </footer>
+        </div>
+    </body>
+</html>   
